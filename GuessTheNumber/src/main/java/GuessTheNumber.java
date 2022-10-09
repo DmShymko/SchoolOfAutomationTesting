@@ -5,13 +5,15 @@ public class GuessTheNumber {
 
     public static void introduction() {
         System.out.println("Hello my name GUSS.");
-        System.out.println("I`m program game guess to number. :)");
-        System.out.println("What your name?");
+        System.out.println("I program - guess the number game. :)");
+        System.out.println("What's your name?");
     }
+
     public static void rules() {
         System.out.println("Enter a number from 0 and to 100");
         System.out.println("You have only 5 attempts");
     }
+
     public static void game() {
         int numberToGuess = new Random().nextInt(100);
 
@@ -22,15 +24,12 @@ public class GuessTheNumber {
                 int number = Integer.parseInt(sc2.nextLine());
                 if (number < 0 || number > 100) {
                     System.err.println("You entered a number outside the range of numbers.");
-                    System.out.println("You input number from 0 and to 100.");
+                    System.out.println("Input number from 0 and to 100.");
                 }
-//                if (number < 0 || number > 100) {
-//                    System.err.println("You entered a number outside the range of numbers.");
-//                    System.out.println("You input number from 0 and to 100.");
-//                }
+
                 if (number == numberToGuess) {
-                    System.out.println("You are WIN!!! Congratulations");
-                    i = 5;
+                    System.out.println("You guessed it!");
+                    break;
                 }
 
                 if (number < numberToGuess) {
@@ -43,6 +42,9 @@ public class GuessTheNumber {
                     System.out.println("Try again");
                 } else {
                     System.out.println("Your attempts is over");
+                    System.out.println("Sorry you didn't guess the number, the answer was: " + numberToGuess);
+                    System.out.println("You lost I'm sorry");
+
                 }
             } catch (NumberFormatException exception) {
                 System.err.println("You input incorrect data");
@@ -51,9 +53,6 @@ public class GuessTheNumber {
             }
         }
 
-
-        System.out.println("It was number: " + numberToGuess);
-        System.out.println("You lost I'm sorry");
 
     }
 }

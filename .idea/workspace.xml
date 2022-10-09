@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="Lesson 2 Basic Java">
-      <change afterPath="$PROJECT_DIR$/Clue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuessTheNumber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuessTheNumber/src/main/java/GuessTheNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuessTheNumber/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tokengenerator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="The game. GuessTheNumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/src/main/java/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2/src/main/java/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson2/src/main/java/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson2/src/main/java/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuessTheNumber/src/main/java/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/GuessTheNumber/src/main/java/GuessTheNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +64,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665060511005</updated>
     </task>
+    <task id="LOCAL-00001" summary="The game. GuessTheNumber">
+      <created>1665330198201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665330198202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 2 Basic Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 2 Basic Java" />
+    <MESSAGE value="The game. GuessTheNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="The game. GuessTheNumber" />
   </component>
 </project>
