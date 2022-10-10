@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="The game. GuessTheNumber">
+    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="The game. GuessTheNumber correct">
+      <change afterPath="$PROJECT_DIR$/CreateArray/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateArray/src/main/java/CreateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CreateArray/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GuessTheNumber/src/main/java/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/GuessTheNumber/src/main/java/GuessTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,14 @@
     "last_opened_file_path": "C:/Users/dmitrij.shymko/IdeaProjects/HomeWork1"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CreateArray" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GuessTheNumber" />
@@ -51,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665330198202</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The game. GuessTheNumber correct">
+      <created>1665332619294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665332619294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 2 Basic Java" />
     <MESSAGE value="The game. GuessTheNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="The game. GuessTheNumber" />
+    <MESSAGE value="The game. GuessTheNumber correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="The game. GuessTheNumber correct" />
   </component>
 </project>
