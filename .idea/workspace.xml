@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="The game. GuessTheNumber correct">
-      <change afterPath="$PROJECT_DIR$/CreateArray/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateArray/src/main/java/CreateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreateArray/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="The game. Create array.">
+      <change afterPath="$PROJECT_DIR$/TokenGenerator/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TokenGenerator/src/main/java/TokenGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tokengenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TokenGenerator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +46,17 @@
     "last_opened_file_path": "C:/Users/dmitrij.shymko/IdeaProjects/HomeWork1"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CreateArray" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TokenGenerator" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -90,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665332619294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The game. Create array.">
+      <created>1665410479513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665410479513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +124,7 @@
     <MESSAGE value="Lesson 2 Basic Java" />
     <MESSAGE value="The game. GuessTheNumber" />
     <MESSAGE value="The game. GuessTheNumber correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="The game. GuessTheNumber correct" />
+    <MESSAGE value="The game. Create array." />
+    <option name="LAST_COMMIT_MESSAGE" value="The game. Create array." />
   </component>
 </project>
