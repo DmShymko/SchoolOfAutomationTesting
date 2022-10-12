@@ -1,46 +1,26 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Employee {
 
     String name;
     String surname;
     Double salary;
 
-    Employee (String name, String surname, Double salary){
+    Employee(String name, String surname, Double salary) {
+
         this.name = name;
         this.surname = surname;
         this.salary = salary;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSurname() {
-        return surname;
     }
 
     public Double getSalary() {
         return salary;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public static void getAllData(Employee employee) {
+        System.out.println("Salary for " + employee.name + " " + employee.surname + " is: " + employee.salary);
     }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
-
-    public static void getAllData(){
-        System.out.println("Salary for IMIE NAZWISKO is WYPLATA");
-    }
-
-    static Employee employee1 = new Employee("John","Smith",1500.00);
-    static Employee employee2 = new Employee("Maria","Walt",2000.00);
-    static Employee employee3 = new Employee("Samuel","Barclay",2500.00);
 
     @Override
     public String toString() {
@@ -49,5 +29,34 @@ public class Employee {
                 ", surname='" + surname + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    public static void createEmployee() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Create 5 Employee, Enter Name, Surname, and salary");
+
+
+        for (int i = 0; i < 5; i++) {
+            try {
+                System.out.println("Enter data employee #" + (i + 1));
+
+                Employee employee = new Employee(scanner.next(), scanner.next(), scanner.nextDouble());
+
+                Company.listEmployee.add(employee);
+            } catch (InputMismatchException e) {
+                System.err.println("You entered invalid data salary, please input number salary");
+                i--;
+            }
+
+        }
+    }
+
+    public static double getMeSumSalary() {
+        double salary = 0;
+        for (int i = 0; i < Company.listEmployee.size(); i++) {
+            salary += Company.listEmployee.get(i).getSalary();
+
+        }
+        return salary;
     }
 }
