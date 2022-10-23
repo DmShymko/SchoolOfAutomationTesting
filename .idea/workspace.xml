@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="Create Payroll">
-      <change afterPath="$PROJECT_DIR$/Payroll/src/main/java/Menu.java" afterDir="false" />
+    <list default="true" id="710aabb4-150c-43dc-997e-8263d86218cc" name="Changes" comment="Payroll. added Menu">
+      <change afterPath="$PROJECT_DIR$/SearchAuto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAuto/src/main/java/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAuto/src/main/java/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAuto/src/main/java/Dimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAuto/src/main/java/Market.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAuto/src/main/java/Producent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchAuto/src/main/java/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payroll/src/main/java/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payroll/src/main/java/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payroll/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payroll/src/main/java/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payroll/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Payroll/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
       <recent name="C:\Users\dmitrij.shymko\IdeaProjects\SchoolOfAutomationTesting\Payroll\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Run (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CreateArray" />
@@ -71,19 +76,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="GuessTheNumber" />
+    <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <module name="SearchAuto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <module name="SchoolOfAutomationTesting" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Run (1)" />
+        <item itemvalue="Application.Run" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665522965469</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Payroll. added Menu">
+      <created>1665586431904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665586431904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +172,7 @@
     <MESSAGE value="The game. Create array." />
     <MESSAGE value="Create TokenGenerator." />
     <MESSAGE value="Create Payroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Payroll" />
+    <MESSAGE value="Payroll. added Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Payroll. added Menu" />
   </component>
 </project>
